@@ -1,0 +1,56 @@
+img {
+  width: 100%;
+  border: 2px solid black;
+  border-radius: 6px;
+  margin-bottom: 25px;
+}
+
+table {
+  padding-top: 25px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+td {
+  padding: 15px;
+}
+
+.wrapper {
+  padding-top: 80px;
+  text-align: center;
+}
+
+.text-wrapper {
+  margin: 0 auto;
+  padding: 20px;
+  background: white;
+  border: 1px solid black;
+  border-radius: 6px;
+  width: 80%;
+}
+
+.text {
+  line-height: 2;
+}
+
+.container {
+  width: 45%;
+  text-align: center;
+  margin-right: 25px;
+}
+
+.clear {
+  clear: both;
+}
+
+@media only screen and (max-width: 650px) {
+  table {
+    font-size: 10px;
+    margin-bottom: 15px;
+  }
+  .container {
+    float: none;
+    margin: 0 auto;
+    width: 80%;
+  }
+}
